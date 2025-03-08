@@ -1,0 +1,16 @@
+.calender{
+    display: grid;
+    
+    grid-template-columns: repeat(7,50px);
+    row-gap: 20px;
+    column-gap: 20px;
+    
+}
+.item{
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 20px;
+}
